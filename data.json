@@ -1,0 +1,2282 @@
+[
+    {
+        "english": "Analysis",
+        "chinese": "分析"
+    },
+    {
+        "english": "Approach",
+        "chinese": "方法"
+    },
+    {
+        "english": "Area",
+        "chinese": "地区领域"
+    },
+    {
+        "english": "Assessment",
+        "chinese": "评价"
+    },
+    {
+        "english": "Assume",
+        "chinese": "假设"
+    },
+    {
+        "english": "Authority",
+        "chinese": "权威"
+    },
+    {
+        "english": "Available",
+        "chinese": "可提供的"
+    },
+    {
+        "english": "Benefit",
+        "chinese": "好处，受益"
+    },
+    {
+        "english": "Concept",
+        "chinese": "概念"
+    },
+    {
+        "english": "Consistent",
+        "chinese": "一致的"
+    },
+    {
+        "english": "Constitutional",
+        "chinese": "宪法的"
+    },
+    {
+        "english": "Context",
+        "chinese": "环境"
+    },
+    {
+        "english": "Contract",
+        "chinese": "收缩，合同"
+    },
+    {
+        "english": "Create",
+        "chinese": "创造"
+    },
+    {
+        "english": "Data",
+        "chinese": "数据"
+    },
+    {
+        "english": "Definition",
+        "chinese": "定义"
+    },
+    {
+        "english": "Derived",
+        "chinese": "由来，派生"
+    },
+    {
+        "english": "Distribution",
+        "chinese": "分布"
+    },
+    {
+        "english": "Economic",
+        "chinese": "经济的"
+    },
+    {
+        "english": "Environment",
+        "chinese": "环境"
+    },
+    {
+        "english": "Establish",
+        "chinese": "建立"
+    },
+    {
+        "english": "Estimate",
+        "chinese": "估计"
+    },
+    {
+        "english": "Evidence",
+        "chinese": "证据"
+    },
+    {
+        "english": "Export",
+        "chinese": "出口"
+    },
+    {
+        "english": "Factors",
+        "chinese": "因素"
+    },
+    {
+        "english": "Financial",
+        "chinese": "金融的"
+    },
+    {
+        "english": "Formula",
+        "chinese": "公式"
+    },
+    {
+        "english": "Function",
+        "chinese": "功能"
+    },
+    {
+        "english": "Identified",
+        "chinese": "确认的"
+    },
+    {
+        "english": "Income",
+        "chinese": "收入"
+    },
+    {
+        "english": "Indicate",
+        "chinese": "指出"
+    },
+    {
+        "english": "Individual",
+        "chinese": "个人的"
+    },
+    {
+        "english": "Interpretation",
+        "chinese": "理解"
+    },
+    {
+        "english": "Involved",
+        "chinese": "设计到"
+    },
+    {
+        "english": "Issues",
+        "chinese": "问题"
+    },
+    {
+        "english": "Labour",
+        "chinese": "劳动力"
+    },
+    {
+        "english": "Legal",
+        "chinese": "合法的"
+    },
+    {
+        "english": "Legislation",
+        "chinese": "立法"
+    },
+    {
+        "english": "Major",
+        "chinese": "主要的，专业"
+    },
+    {
+        "english": "Method",
+        "chinese": "方法"
+    },
+    {
+        "english": "Occur",
+        "chinese": "出现"
+    },
+    {
+        "english": "Percent",
+        "chinese": "百分之"
+    },
+    {
+        "english": "Period",
+        "chinese": "时期"
+    },
+    {
+        "english": "Policy",
+        "chinese": "政策"
+    },
+    {
+        "english": "Principle",
+        "chinese": "原则"
+    },
+    {
+        "english": "Procedure",
+        "chinese": "步骤"
+    },
+    {
+        "english": "Process",
+        "chinese": "过程，处理"
+    },
+    {
+        "english": "Required",
+        "chinese": "必须的"
+    },
+    {
+        "english": "Research",
+        "chinese": "研究"
+    },
+    {
+        "english": "Response",
+        "chinese": "回应"
+    },
+    {
+        "english": "Role",
+        "chinese": "角色，作用"
+    },
+    {
+        "english": "Section",
+        "chinese": "部分"
+    },
+    {
+        "english": "Sector",
+        "chinese": "行业，区域"
+    },
+    {
+        "english": "Significant",
+        "chinese": "重要的"
+    },
+    {
+        "english": "Similar",
+        "chinese": "相似的"
+    },
+    {
+        "english": "Source",
+        "chinese": "源头"
+    },
+    {
+        "english": "Specific",
+        "chinese": "具体的"
+    },
+    {
+        "english": "Structure",
+        "chinese": "结构"
+    },
+    {
+        "english": "Theory",
+        "chinese": "理论"
+    },
+    {
+        "english": "Variables",
+        "chinese": "变量"
+    },
+    {
+        "english": "Achieve",
+        "chinese": "获得"
+    },
+    {
+        "english": "Acquisition",
+        "chinese": "收购获得"
+    },
+    {
+        "english": "Administration",
+        "chinese": "管理"
+    },
+    {
+        "english": "Affect",
+        "chinese": "影响"
+    },
+    {
+        "english": "Appropriate",
+        "chinese": "合适的"
+    },
+    {
+        "english": "Aspects",
+        "chinese": "方面"
+    },
+    {
+        "english": "Assistance",
+        "chinese": "协助"
+    },
+    {
+        "english": "Categories",
+        "chinese": "种类"
+    },
+    {
+        "english": "Chapter",
+        "chinese": "章节"
+    },
+    {
+        "english": "Commission",
+        "chinese": "委托"
+    },
+    {
+        "english": "Community",
+        "chinese": "社区"
+    },
+    {
+        "english": "Complex",
+        "chinese": "组成的，合成的"
+    },
+    {
+        "english": "Computer",
+        "chinese": "电脑"
+    },
+    {
+        "english": "Conclusion",
+        "chinese": "结论"
+    },
+    {
+        "english": "Conduct",
+        "chinese": "做"
+    },
+    {
+        "english": "Consequences",
+        "chinese": "后果"
+    },
+    {
+        "english": "Construction",
+        "chinese": "建设"
+    },
+    {
+        "english": "Consumer",
+        "chinese": "顾客"
+    },
+    {
+        "english": "Credit",
+        "chinese": "信用"
+    },
+    {
+        "english": "Cultural",
+        "chinese": "文化的"
+    },
+    {
+        "english": "Design",
+        "chinese": "设计"
+    },
+    {
+        "english": "Distinction",
+        "chinese": "区别"
+    },
+    {
+        "english": "Elements",
+        "chinese": "元素"
+    },
+    {
+        "english": "Equation",
+        "chinese": "等式"
+    },
+    {
+        "english": "Evaluation",
+        "chinese": "评价"
+    },
+    {
+        "english": "Features",
+        "chinese": "特点"
+    },
+    {
+        "english": "Final",
+        "chinese": "最后的"
+    },
+    {
+        "english": "Focus",
+        "chinese": "关注"
+    },
+    {
+        "english": "Impact",
+        "chinese": "影响"
+    },
+    {
+        "english": "Injury",
+        "chinese": "受伤"
+    },
+    {
+        "english": "Institute",
+        "chinese": "协会"
+    },
+    {
+        "english": "Investment",
+        "chinese": "投资"
+    },
+    {
+        "english": "Items",
+        "chinese": "项目条款"
+    },
+    {
+        "english": "Journal",
+        "chinese": "期刊"
+    },
+    {
+        "english": "Maintenance",
+        "chinese": "维修"
+    },
+    {
+        "english": "Normal",
+        "chinese": "正常的"
+    },
+    {
+        "english": "Obtained",
+        "chinese": "获得"
+    },
+    {
+        "english": "Participation",
+        "chinese": "参与"
+    },
+    {
+        "english": "Perceive",
+        "chinese": "认识到"
+    },
+    {
+        "english": "Positive",
+        "chinese": "积极的"
+    },
+    {
+        "english": "Potential",
+        "chinese": "潜在的"
+    },
+    {
+        "english": "Previous",
+        "chinese": "之前的"
+    },
+    {
+        "english": "Primary",
+        "chinese": "主要的"
+    },
+    {
+        "english": "Purchase",
+        "chinese": "购买"
+    },
+    {
+        "english": "Range",
+        "chinese": "范围"
+    },
+    {
+        "english": "Region",
+        "chinese": "地区"
+    },
+    {
+        "english": "Regulations",
+        "chinese": "规则"
+    },
+    {
+        "english": "Relevant",
+        "chinese": "相关的"
+    },
+    {
+        "english": "Resident",
+        "chinese": "定居者"
+    },
+    {
+        "english": "Resources",
+        "chinese": "资源"
+    },
+    {
+        "english": "Restricted",
+        "chinese": "受限"
+    },
+    {
+        "english": "Security",
+        "chinese": "安全"
+    },
+    {
+        "english": "Sought",
+        "chinese": "寻找（过去式）"
+    },
+    {
+        "english": "Select",
+        "chinese": "选择"
+    },
+    {
+        "english": "Site",
+        "chinese": "选址"
+    },
+    {
+        "english": "Strategies",
+        "chinese": "策略"
+    },
+    {
+        "english": "Survey",
+        "chinese": "调查"
+    },
+    {
+        "english": "Text",
+        "chinese": "文本"
+    },
+    {
+        "english": "Traditional",
+        "chinese": "传统的"
+    },
+    {
+        "english": "Transfer",
+        "chinese": "转移"
+    },
+    {
+        "english": "Alternative",
+        "chinese": "可供选择的"
+    },
+    {
+        "english": "Circumstance",
+        "chinese": "环境"
+    },
+    {
+        "english": "Comments",
+        "chinese": "评论"
+    },
+    {
+        "english": "Compensation",
+        "chinese": "补偿"
+    },
+    {
+        "english": "Components",
+        "chinese": "组成部分"
+    },
+    {
+        "english": "Consent",
+        "chinese": "同意"
+    },
+    {
+        "english": "Considerable",
+        "chinese": "大量的"
+    },
+    {
+        "english": "Constant",
+        "chinese": "连续的"
+    },
+    {
+        "english": "Constraints",
+        "chinese": "限制"
+    },
+    {
+        "english": "Contribution",
+        "chinese": "贡献"
+    },
+    {
+        "english": "Convention",
+        "chinese": "准则"
+    },
+    {
+        "english": "Coordination",
+        "chinese": "协调"
+    },
+    {
+        "english": "Core",
+        "chinese": "核心的"
+    },
+    {
+        "english": "Corporate",
+        "chinese": "大公司"
+    },
+    {
+        "english": "Corresponding",
+        "chinese": "相应的"
+    },
+    {
+        "english": "Criteria",
+        "chinese": "标准"
+    },
+    {
+        "english": "Deduction",
+        "chinese": "减除"
+    },
+    {
+        "english": "Demonstrate",
+        "chinese": "证明"
+    },
+    {
+        "english": "Document",
+        "chinese": "文件"
+    },
+    {
+        "english": "Dominant",
+        "chinese": "主导的"
+    },
+    {
+        "english": "Emphasis",
+        "chinese": "重要性"
+    },
+    {
+        "english": "Ensure",
+        "chinese": "确保"
+    },
+    {
+        "english": "Excluded",
+        "chinese": "排除"
+    },
+    {
+        "english": "Framework",
+        "chinese": "框架"
+    },
+    {
+        "english": "Funds",
+        "chinese": "资金"
+    },
+    {
+        "english": "Illustrated",
+        "chinese": "给...插图"
+    },
+    {
+        "english": "Immigration",
+        "chinese": "移民"
+    },
+    {
+        "english": "Implies",
+        "chinese": "暗示"
+    },
+    {
+        "english": "Initial",
+        "chinese": "开始的"
+    },
+    {
+        "english": "Instance",
+        "chinese": "例子"
+    },
+    {
+        "english": "Interaction",
+        "chinese": "互动"
+    },
+    {
+        "english": "Justification",
+        "chinese": "证明正确"
+    },
+    {
+        "english": "Layer",
+        "chinese": "层"
+    },
+    {
+        "english": "Link",
+        "chinese": "连接"
+    },
+    {
+        "english": "Location",
+        "chinese": "地点"
+    },
+    {
+        "english": "Maximum",
+        "chinese": "最大"
+    },
+    {
+        "english": "Minorities",
+        "chinese": "少数"
+    },
+    {
+        "english": "Negative",
+        "chinese": "消极的"
+    },
+    {
+        "english": "Outcomes",
+        "chinese": "结果"
+    },
+    {
+        "english": "Partnership",
+        "chinese": "合作"
+    },
+    {
+        "english": "Philosophy",
+        "chinese": "哲学"
+    },
+    {
+        "english": "Physical",
+        "chinese": "身体的"
+    },
+    {
+        "english": "Proportion",
+        "chinese": "部分比例"
+    },
+    {
+        "english": "Publish",
+        "chinese": "出版"
+    },
+    {
+        "english": "Reaction",
+        "chinese": "反应"
+    },
+    {
+        "english": "Registered",
+        "chinese": "登记"
+    },
+    {
+        "english": "Reliance",
+        "chinese": "依靠"
+    },
+    {
+        "english": "Removed",
+        "chinese": "移开"
+    },
+    {
+        "english": "Scheme",
+        "chinese": "计划方案"
+    },
+    {
+        "english": "Sequence",
+        "chinese": "顺序"
+    },
+    {
+        "english": "Sex",
+        "chinese": "性"
+    },
+    {
+        "english": "Shift",
+        "chinese": "转换"
+    },
+    {
+        "english": "Specified",
+        "chinese": "具体说明的"
+    },
+    {
+        "english": "Sufficient",
+        "chinese": "足够的"
+    },
+    {
+        "english": "Task",
+        "chinese": "任务"
+    },
+    {
+        "english": "Technical",
+        "chinese": "技术的"
+    },
+    {
+        "english": "Techniques",
+        "chinese": "技术"
+    },
+    {
+        "english": "Technology",
+        "chinese": "技术"
+    },
+    {
+        "english": "Validity",
+        "chinese": "合法性"
+    },
+    {
+        "english": "Volume",
+        "chinese": "量"
+    },
+    {
+        "english": "Access",
+        "chinese": "获得"
+    },
+    {
+        "english": "Adequate",
+        "chinese": "足够的"
+    },
+    {
+        "english": "Annual",
+        "chinese": "年度的"
+    },
+    {
+        "english": "Apparent",
+        "chinese": "明显的"
+    },
+    {
+        "english": "Approximate",
+        "chinese": "近似"
+    },
+    {
+        "english": "Attitudes",
+        "chinese": "态度"
+    },
+    {
+        "english": "Attributed",
+        "chinese": "归因于"
+    },
+    {
+        "english": "Civil",
+        "chinese": "国内的"
+    },
+    {
+        "english": "Code",
+        "chinese": "代码"
+    },
+    {
+        "english": "Commitment",
+        "chinese": "承诺"
+    },
+    {
+        "english": "Communication",
+        "chinese": "交流"
+    },
+    {
+        "english": "Concentration",
+        "chinese": "浓度"
+    },
+    {
+        "english": "Conference",
+        "chinese": "会议"
+    },
+    {
+        "english": "Contrast",
+        "chinese": "对比"
+    },
+    {
+        "english": "Cycle",
+        "chinese": "循环"
+    },
+    {
+        "english": "Debate",
+        "chinese": "辩论"
+    },
+    {
+        "english": "Despite",
+        "chinese": "尽管"
+    },
+    {
+        "english": "Dimensions",
+        "chinese": "维度"
+    },
+    {
+        "english": "Domestic",
+        "chinese": "国内的"
+    },
+    {
+        "english": "Emerge",
+        "chinese": "出现"
+    },
+    {
+        "english": "Error",
+        "chinese": "错误"
+    },
+    {
+        "english": "Ethnic",
+        "chinese": "民族的"
+    },
+    {
+        "english": "Goals",
+        "chinese": "目标"
+    },
+    {
+        "english": "Granted",
+        "chinese": "授予"
+    },
+    {
+        "english": "Hence",
+        "chinese": "因此"
+    },
+    {
+        "english": "Hypothesis",
+        "chinese": "假说"
+    },
+    {
+        "english": "Implementation",
+        "chinese": "实施"
+    },
+    {
+        "english": "Implications",
+        "chinese": "含义暗示"
+    },
+    {
+        "english": "Imposed",
+        "chinese": "加强"
+    },
+    {
+        "english": "Integration",
+        "chinese": "结合"
+    },
+    {
+        "english": "Internal",
+        "chinese": "内部的"
+    },
+    {
+        "english": "Investigation",
+        "chinese": "调查"
+    },
+    {
+        "english": "Job",
+        "chinese": "工作"
+    },
+    {
+        "english": "Label",
+        "chinese": "标签"
+    },
+    {
+        "english": "Mechanism",
+        "chinese": "机制"
+    },
+    {
+        "english": "Obvious",
+        "chinese": "明显的"
+    },
+    {
+        "english": "Occupational",
+        "chinese": "职业的"
+    },
+    {
+        "english": "Option",
+        "chinese": "选择"
+    },
+    {
+        "english": "Output",
+        "chinese": "产出"
+    },
+    {
+        "english": "Overall",
+        "chinese": "整体的"
+    },
+    {
+        "english": "Parallel",
+        "chinese": "平行"
+    },
+    {
+        "english": "Parameters",
+        "chinese": "参数"
+    },
+    {
+        "english": "Phase",
+        "chinese": "阶段"
+    },
+    {
+        "english": "Predicted",
+        "chinese": "预测"
+    },
+    {
+        "english": "Principal",
+        "chinese": "主要的"
+    },
+    {
+        "english": "Prior",
+        "chinese": "先前的"
+    },
+    {
+        "english": "Professional",
+        "chinese": "专业的"
+    },
+    {
+        "english": "Project",
+        "chinese": "项目"
+    },
+    {
+        "english": "Promote",
+        "chinese": "促进"
+    },
+    {
+        "english": "Regime",
+        "chinese": "政权"
+    },
+    {
+        "english": "Resolution",
+        "chinese": "决心"
+    },
+    {
+        "english": "Retained",
+        "chinese": "保留"
+    },
+    {
+        "english": "Series",
+        "chinese": "系列"
+    },
+    {
+        "english": "Statistics",
+        "chinese": "统计"
+    },
+    {
+        "english": "Status",
+        "chinese": "地位"
+    },
+    {
+        "english": "Stress",
+        "chinese": "压力"
+    },
+    {
+        "english": "Subsequent",
+        "chinese": "紧随其后的"
+    },
+    {
+        "english": "Sum",
+        "chinese": "总量"
+    },
+    {
+        "english": "Summary",
+        "chinese": "总结"
+    },
+    {
+        "english": "Undertaken",
+        "chinese": "承担"
+    },
+    {
+        "english": "Academic",
+        "chinese": "学术的"
+    },
+    {
+        "english": "Adjustment",
+        "chinese": "调整"
+    },
+    {
+        "english": "Alter",
+        "chinese": "改变"
+    },
+    {
+        "english": "Amendment",
+        "chinese": "修订"
+    },
+    {
+        "english": "Aware",
+        "chinese": "注意到"
+    },
+    {
+        "english": "Capacity",
+        "chinese": "能力"
+    },
+    {
+        "english": "Challenge",
+        "chinese": "挑战"
+    },
+    {
+        "english": "Clause",
+        "chinese": "从句"
+    },
+    {
+        "english": "Compounds",
+        "chinese": "混合物"
+    },
+    {
+        "english": "Conflict",
+        "chinese": "矛盾"
+    },
+    {
+        "english": "Consultation",
+        "chinese": "咨询"
+    },
+    {
+        "english": "Contact",
+        "chinese": "接触"
+    },
+    {
+        "english": "Decline",
+        "chinese": "下降"
+    },
+    {
+        "english": "Discretion",
+        "chinese": "谨慎"
+    },
+    {
+        "english": "Draft",
+        "chinese": "草稿"
+    },
+    {
+        "english": "Enable",
+        "chinese": "使...能"
+    },
+    {
+        "english": "Energy",
+        "chinese": "能量"
+    },
+    {
+        "english": "Enforcement",
+        "chinese": "强制执行"
+    },
+    {
+        "english": "Entities",
+        "chinese": "实物"
+    },
+    {
+        "english": "Equivalent",
+        "chinese": "相等的"
+    },
+    {
+        "english": "Evolution",
+        "chinese": "进化"
+    },
+    {
+        "english": "Expansion",
+        "chinese": "扩张"
+    },
+    {
+        "english": "Exposure",
+        "chinese": "接触"
+    },
+    {
+        "english": "External",
+        "chinese": "外部的"
+    },
+    {
+        "english": "Facilitate",
+        "chinese": "协助"
+    },
+    {
+        "english": "Fundamental",
+        "chinese": "根本的"
+    },
+    {
+        "english": "Generated",
+        "chinese": "产生"
+    },
+    {
+        "english": "Generation",
+        "chinese": "代"
+    },
+    {
+        "english": "Image",
+        "chinese": "图像"
+    },
+    {
+        "english": "Liberal",
+        "chinese": "开明的"
+    },
+    {
+        "english": "Licence",
+        "chinese": "执照"
+    },
+    {
+        "english": "Logic",
+        "chinese": "逻辑"
+    },
+    {
+        "english": "Marginal",
+        "chinese": "边缘的"
+    },
+    {
+        "english": "Medical",
+        "chinese": "医学的"
+    },
+    {
+        "english": "Mental",
+        "chinese": "精神的"
+    },
+    {
+        "english": "Modified",
+        "chinese": "修改"
+    },
+    {
+        "english": "Monitoring",
+        "chinese": "监督"
+    },
+    {
+        "english": "Network",
+        "chinese": "网络"
+    },
+    {
+        "english": "Notion",
+        "chinese": "概念"
+    },
+    {
+        "english": "Objective",
+        "chinese": "客观的"
+    },
+    {
+        "english": "Orientation",
+        "chinese": "定位"
+    },
+    {
+        "english": "Perspective",
+        "chinese": "角度"
+    },
+    {
+        "english": "Precise",
+        "chinese": "精准的"
+    },
+    {
+        "english": "Prime",
+        "chinese": "主要的"
+    },
+    {
+        "english": "Psychology",
+        "chinese": "心理学"
+    },
+    {
+        "english": "Pursue",
+        "chinese": "追逐"
+    },
+    {
+        "english": "Ratio",
+        "chinese": "比例"
+    },
+    {
+        "english": "Rejected",
+        "chinese": "拒绝"
+    },
+    {
+        "english": "Revenue",
+        "chinese": "税收"
+    },
+    {
+        "english": "Stability",
+        "chinese": "稳定性"
+    },
+    {
+        "english": "Style",
+        "chinese": "风格"
+    },
+    {
+        "english": "Substitution",
+        "chinese": "替代物"
+    },
+    {
+        "english": "Sustainable",
+        "chinese": "可持续的"
+    },
+    {
+        "english": "Symbolic",
+        "chinese": "象征的"
+    },
+    {
+        "english": "Target",
+        "chinese": "目标"
+    },
+    {
+        "english": "Transition",
+        "chinese": "过度"
+    },
+    {
+        "english": "Trend",
+        "chinese": "潮流"
+    },
+    {
+        "english": "Version",
+        "chinese": "版本"
+    },
+    {
+        "english": "Welfare",
+        "chinese": "福祉"
+    },
+    {
+        "english": "Whereas",
+        "chinese": "却"
+    },
+    {
+        "english": "Abstract",
+        "chinese": "摘要"
+    },
+    {
+        "english": "Accurate",
+        "chinese": "准确的"
+    },
+    {
+        "english": "Acknowledge",
+        "chinese": "承认"
+    },
+    {
+        "english": "Aggregate",
+        "chinese": "总计"
+    },
+    {
+        "english": "Allocation",
+        "chinese": "分配"
+    },
+    {
+        "english": "Assigned",
+        "chinese": "指派"
+    },
+    {
+        "english": "Attached",
+        "chinese": "粘附"
+    },
+    {
+        "english": "Author",
+        "chinese": "作者"
+    },
+    {
+        "english": "Bond",
+        "chinese": "纽带"
+    },
+    {
+        "english": "Brief",
+        "chinese": "简洁的"
+    },
+    {
+        "english": "Capable",
+        "chinese": "有能力的"
+    },
+    {
+        "english": "Cite",
+        "chinese": "引用"
+    },
+    {
+        "english": "Cooperative",
+        "chinese": "合作的"
+    },
+    {
+        "english": "Discrimination",
+        "chinese": "歧视"
+    },
+    {
+        "english": "Display",
+        "chinese": "显示"
+    },
+    {
+        "english": "Diversity",
+        "chinese": "多样性"
+    },
+    {
+        "english": "Domain",
+        "chinese": "领域"
+    },
+    {
+        "english": "Edition",
+        "chinese": "版本"
+    },
+    {
+        "english": "Enhanced",
+        "chinese": "提高"
+    },
+    {
+        "english": "Estate",
+        "chinese": "地产"
+    },
+    {
+        "english": "Exceed",
+        "chinese": "超过"
+    },
+    {
+        "english": "Expert",
+        "chinese": "专家"
+    },
+    {
+        "english": "Explicit",
+        "chinese": "明显的"
+    },
+    {
+        "english": "Federal",
+        "chinese": "联邦的"
+    },
+    {
+        "english": "Fees",
+        "chinese": "费用"
+    },
+    {
+        "english": "Flexibility",
+        "chinese": "灵活性"
+    },
+    {
+        "english": "Furthermore",
+        "chinese": "而且"
+    },
+    {
+        "english": "Gender",
+        "chinese": "性别"
+    },
+    {
+        "english": "Ignored",
+        "chinese": "忽视"
+    },
+    {
+        "english": "Incentive",
+        "chinese": "刺激"
+    },
+    {
+        "english": "Incidence",
+        "chinese": "发生"
+    },
+    {
+        "english": "Incorporate",
+        "chinese": "纳入"
+    },
+    {
+        "english": "Index",
+        "chinese": "索引"
+    },
+    {
+        "english": "Inhibition",
+        "chinese": "内抑感"
+    },
+    {
+        "english": "Initiatives",
+        "chinese": "主动性"
+    },
+    {
+        "english": "Input",
+        "chinese": "输入"
+    },
+    {
+        "english": "Instructions",
+        "chinese": "指示"
+    },
+    {
+        "english": "Intelligence",
+        "chinese": "智力"
+    },
+    {
+        "english": "Interval",
+        "chinese": "间隔"
+    },
+    {
+        "english": "Lecture",
+        "chinese": "讲座"
+    },
+    {
+        "english": "Migration",
+        "chinese": "迁徙"
+    },
+    {
+        "english": "Minimum",
+        "chinese": "最小"
+    },
+    {
+        "english": "Ministry",
+        "chinese": "部"
+    },
+    {
+        "english": "Motivation",
+        "chinese": "动机"
+    },
+    {
+        "english": "Neutral",
+        "chinese": "中立的"
+    },
+    {
+        "english": "Nevertheless",
+        "chinese": "然而"
+    },
+    {
+        "english": "Overseas",
+        "chinese": "海外的"
+    },
+    {
+        "english": "Precede",
+        "chinese": "先于"
+    },
+    {
+        "english": "Presumption",
+        "chinese": "推测"
+    },
+    {
+        "english": "Rational",
+        "chinese": "合理的"
+    },
+    {
+        "english": "Recovery",
+        "chinese": "恢复"
+    },
+    {
+        "english": "Revealed",
+        "chinese": "揭示"
+    },
+    {
+        "english": "Scope",
+        "chinese": "范围"
+    },
+    {
+        "english": "Subsidiary",
+        "chinese": "次要的"
+    },
+    {
+        "english": "Tapes",
+        "chinese": "带子"
+    },
+    {
+        "english": "Trace",
+        "chinese": "追踪"
+    },
+    {
+        "english": "Transformation",
+        "chinese": "蜕变"
+    },
+    {
+        "english": "Transport",
+        "chinese": "交通"
+    },
+    {
+        "english": "Underlying",
+        "chinese": "潜在的"
+    },
+    {
+        "english": "Utility",
+        "chinese": "实用效用"
+    },
+    {
+        "english": "Adaptation",
+        "chinese": "适应"
+    },
+    {
+        "english": "Adults",
+        "chinese": "成年人"
+    },
+    {
+        "english": "Advocate",
+        "chinese": "支持"
+    },
+    {
+        "english": "Aid",
+        "chinese": "帮助"
+    },
+    {
+        "english": "Channel",
+        "chinese": "渠道"
+    },
+    {
+        "english": "Chemical",
+        "chinese": "化学的"
+    },
+    {
+        "english": "Classical",
+        "chinese": "经典的"
+    },
+    {
+        "english": "Comprehensive",
+        "chinese": "全面的"
+    },
+    {
+        "english": "Comprise",
+        "chinese": "由...组成"
+    },
+    {
+        "english": "Confirmed",
+        "chinese": "确定"
+    },
+    {
+        "english": "Contrary",
+        "chinese": "相反的"
+    },
+    {
+        "english": "Converted",
+        "chinese": "转换"
+    },
+    {
+        "english": "Couple",
+        "chinese": "一对"
+    },
+    {
+        "english": "Decade",
+        "chinese": "十年"
+    },
+    {
+        "english": "Definite",
+        "chinese": "明确的"
+    },
+    {
+        "english": "Deny",
+        "chinese": "否认"
+    },
+    {
+        "english": "Differentiation",
+        "chinese": "区分"
+    },
+    {
+        "english": "Disposal",
+        "chinese": "丢弃"
+    },
+    {
+        "english": "Dynamic",
+        "chinese": "动态的"
+    },
+    {
+        "english": "Eliminate",
+        "chinese": "消除"
+    },
+    {
+        "english": "Empirical",
+        "chinese": "经验主义的"
+    },
+    {
+        "english": "Equipment",
+        "chinese": "设备"
+    },
+    {
+        "english": "Extract",
+        "chinese": "提取"
+    },
+    {
+        "english": "File",
+        "chinese": "文件"
+    },
+    {
+        "english": "Finite",
+        "chinese": "有限的"
+    },
+    {
+        "english": "Foundation",
+        "chinese": "基础"
+    },
+    {
+        "english": "Global",
+        "chinese": "全球的"
+    },
+    {
+        "english": "Grade",
+        "chinese": "成绩"
+    },
+    {
+        "english": "Guarantee",
+        "chinese": "保证"
+    },
+    {
+        "english": "Hierarchical",
+        "chinese": "分等级的"
+    },
+    {
+        "english": "Identical",
+        "chinese": "相似的"
+    },
+    {
+        "english": "Ideology",
+        "chinese": "意识形态"
+    },
+    {
+        "english": "Inferred",
+        "chinese": "推断"
+    },
+    {
+        "english": "Innovation",
+        "chinese": "创新"
+    },
+    {
+        "english": "Insert",
+        "chinese": "嵌入"
+    },
+    {
+        "english": "Intervention",
+        "chinese": "干预"
+    },
+    {
+        "english": "Isolate",
+        "chinese": "使孤立"
+    },
+    {
+        "english": "Media",
+        "chinese": "媒体"
+    },
+    {
+        "english": "Mode",
+        "chinese": "模式"
+    },
+    {
+        "english": "Paradigm",
+        "chinese": "范例"
+    },
+    {
+        "english": "Phenomenon",
+        "chinese": "现象"
+    },
+    {
+        "english": "Priority",
+        "chinese": "优先权"
+    },
+    {
+        "english": "Prohibited",
+        "chinese": "禁止"
+    },
+    {
+        "english": "Publication",
+        "chinese": "出版物"
+    },
+    {
+        "english": "Quotation",
+        "chinese": "引用"
+    },
+    {
+        "english": "Release",
+        "chinese": "释放"
+    },
+    {
+        "english": "Reverse",
+        "chinese": "倒退"
+    },
+    {
+        "english": "Simulation",
+        "chinese": "模仿"
+    },
+    {
+        "english": "Solely",
+        "chinese": "独自的"
+    },
+    {
+        "english": "Somewhat",
+        "chinese": "稍微"
+    },
+    {
+        "english": "Submit",
+        "chinese": "提交"
+    },
+    {
+        "english": "Successive",
+        "chinese": "连续的"
+    },
+    {
+        "english": "Survive",
+        "chinese": "幸存"
+    },
+    {
+        "english": "Thesis",
+        "chinese": "论文"
+    },
+    {
+        "english": "Topic",
+        "chinese": "主题"
+    },
+    {
+        "english": "Transmission",
+        "chinese": "传播"
+    },
+    {
+        "english": "Ultimately",
+        "chinese": "最终地"
+    },
+    {
+        "english": "Unique",
+        "chinese": "独特的"
+    },
+    {
+        "english": "Visible",
+        "chinese": "可见的"
+    },
+    {
+        "english": "Voluntary",
+        "chinese": "自愿的"
+    },
+    {
+        "english": "Abandon",
+        "chinese": "放弃"
+    },
+    {
+        "english": "Accompanied",
+        "chinese": "陪伴"
+    },
+    {
+        "english": "Accumulation",
+        "chinese": "积累"
+    },
+    {
+        "english": "Ambiguous",
+        "chinese": "模糊的"
+    },
+    {
+        "english": "Appendix",
+        "chinese": "附录"
+    },
+    {
+        "english": "Appreciation",
+        "chinese": "感激"
+    },
+    {
+        "english": "Arbitrary",
+        "chinese": "武断的"
+    },
+    {
+        "english": "Automatically",
+        "chinese": "自动的"
+    },
+    {
+        "english": "Bias",
+        "chinese": "偏见"
+    },
+    {
+        "english": "Chart",
+        "chinese": "图表"
+    },
+    {
+        "english": "Clarity",
+        "chinese": "清楚"
+    },
+    {
+        "english": "Conformity",
+        "chinese": "遵守"
+    },
+    {
+        "english": "Commodity",
+        "chinese": "商品"
+    },
+    {
+        "english": "Complement",
+        "chinese": "补充"
+    },
+    {
+        "english": "Contemporary",
+        "chinese": "现代的"
+    },
+    {
+        "english": "Contradiction",
+        "chinese": "矛盾"
+    },
+    {
+        "english": "Crucial",
+        "chinese": "重要的"
+    },
+    {
+        "english": "Currency",
+        "chinese": "货币"
+    },
+    {
+        "english": "Denote",
+        "chinese": "指示"
+    },
+    {
+        "english": "Detected",
+        "chinese": "察觉"
+    },
+    {
+        "english": "Deviation",
+        "chinese": "偏离"
+    },
+    {
+        "english": "Displacement",
+        "chinese": "位移"
+    },
+    {
+        "english": "Dramatic",
+        "chinese": "戏剧的"
+    },
+    {
+        "english": "Eventually",
+        "chinese": "最后的"
+    },
+    {
+        "english": "Exhibit",
+        "chinese": "展示"
+    },
+    {
+        "english": "Exploitation",
+        "chinese": "充分利用"
+    },
+    {
+        "english": "Fluctuations",
+        "chinese": "波动"
+    },
+    {
+        "english": "Guidelines",
+        "chinese": "指导"
+    },
+    {
+        "english": "Highlighted",
+        "chinese": "强调"
+    },
+    {
+        "english": "Implicit",
+        "chinese": "含蓄的"
+    },
+    {
+        "english": "Induced",
+        "chinese": "引诱"
+    },
+    {
+        "english": "Inevitably",
+        "chinese": "不可避免的"
+    },
+    {
+        "english": "Infrastructure",
+        "chinese": "基础设施"
+    },
+    {
+        "english": "Inspection",
+        "chinese": "检查"
+    },
+    {
+        "english": "Intensity",
+        "chinese": "强度"
+    },
+    {
+        "english": "Manipulation",
+        "chinese": "操控"
+    },
+    {
+        "english": "Minimised",
+        "chinese": "最小化"
+    },
+    {
+        "english": "Nuclear",
+        "chinese": "核"
+    },
+    {
+        "english": "Offset",
+        "chinese": "抵消"
+    },
+    {
+        "english": "Paragraph",
+        "chinese": "段落"
+    },
+    {
+        "english": "Plus",
+        "chinese": "加"
+    },
+    {
+        "english": "Practitioners",
+        "chinese": "从业者"
+    },
+    {
+        "english": "Predominantly",
+        "chinese": "主导的"
+    },
+    {
+        "english": "Prospect",
+        "chinese": "前景"
+    },
+    {
+        "english": "Radical",
+        "chinese": "根本的"
+    },
+    {
+        "english": "Random",
+        "chinese": "随意的"
+    },
+    {
+        "english": "Reinforced",
+        "chinese": "加强"
+    },
+    {
+        "english": "Restore",
+        "chinese": "存储"
+    },
+    {
+        "english": "Revision",
+        "chinese": "修订"
+    },
+    {
+        "english": "Schedule",
+        "chinese": "行程表"
+    },
+    {
+        "english": "Tension",
+        "chinese": "紧张"
+    },
+    {
+        "english": "Termination",
+        "chinese": "终结"
+    },
+    {
+        "english": "Theme",
+        "chinese": "主题"
+    },
+    {
+        "english": "Thereby",
+        "chinese": "因此"
+    },
+    {
+        "english": "Uniform",
+        "chinese": "不变的"
+    },
+    {
+        "english": "Vehicle",
+        "chinese": "工具轿车"
+    },
+    {
+        "english": "Via",
+        "chinese": "通过"
+    },
+    {
+        "english": "Virtually",
+        "chinese": "几乎"
+    },
+    {
+        "english": "Widespread",
+        "chinese": "普遍的"
+    },
+    {
+        "english": "Visual",
+        "chinese": "视觉的"
+    },
+    {
+        "english": "Accommodation",
+        "chinese": "住宿"
+    },
+    {
+        "english": "Analogous",
+        "chinese": "类比的"
+    },
+    {
+        "english": "Anticipated",
+        "chinese": "预料"
+    },
+    {
+        "english": "Assurance",
+        "chinese": "确保"
+    },
+    {
+        "english": "Attained",
+        "chinese": "获得"
+    },
+    {
+        "english": "Behalf",
+        "chinese": "为了...的利益"
+    },
+    {
+        "english": "Bulk",
+        "chinese": "体积"
+    },
+    {
+        "english": "Ceases",
+        "chinese": "停止"
+    },
+    {
+        "english": "Coherence",
+        "chinese": "协调的"
+    },
+    {
+        "english": "Coincide",
+        "chinese": "同时发生的"
+    },
+    {
+        "english": "Commenced",
+        "chinese": "开始"
+    },
+    {
+        "english": "Incompatible",
+        "chinese": "不兼容的"
+    },
+    {
+        "english": "Concurrent",
+        "chinese": "同时发生的"
+    },
+    {
+        "english": "Confined",
+        "chinese": "限制"
+    },
+    {
+        "english": "Controversy",
+        "chinese": "争执"
+    },
+    {
+        "english": "Conversely",
+        "chinese": "相反的"
+    },
+    {
+        "english": "Device",
+        "chinese": "装置"
+    },
+    {
+        "english": "Devoted",
+        "chinese": "投入"
+    },
+    {
+        "english": "Diminished",
+        "chinese": "减少"
+    },
+    {
+        "english": "Distorted/distortion",
+        "chinese": "扭曲"
+    },
+    {
+        "english": "Duration",
+        "chinese": "持续"
+    },
+    {
+        "english": "Erosion",
+        "chinese": "腐蚀"
+    },
+    {
+        "english": "Ethical",
+        "chinese": "道德的"
+    },
+    {
+        "english": "Format",
+        "chinese": "布局"
+    },
+    {
+        "english": "Founded",
+        "chinese": "建立"
+    },
+    {
+        "english": "Inherent",
+        "chinese": "内在的"
+    },
+    {
+        "english": "Insights",
+        "chinese": "洞察力"
+    },
+    {
+        "english": "Integral",
+        "chinese": "必需的"
+    },
+    {
+        "english": "Intermediate",
+        "chinese": "中间的"
+    },
+    {
+        "english": "Manual",
+        "chinese": "用手的"
+    },
+    {
+        "english": "Mature",
+        "chinese": "成熟的"
+    },
+    {
+        "english": "Mediation",
+        "chinese": "调停"
+    },
+    {
+        "english": "Medium",
+        "chinese": "媒介"
+    },
+    {
+        "english": "Military",
+        "chinese": "军事的"
+    },
+    {
+        "english": "Minimal",
+        "chinese": "最小的"
+    },
+    {
+        "english": "Mutual",
+        "chinese": "双方的"
+    },
+    {
+        "english": "Norms",
+        "chinese": "惯例"
+    },
+    {
+        "english": "Overlap",
+        "chinese": "重合"
+    },
+    {
+        "english": "Passive",
+        "chinese": "消极的"
+    },
+    {
+        "english": "Portion",
+        "chinese": "比例"
+    },
+    {
+        "english": "Preliminary",
+        "chinese": "基础的"
+    },
+    {
+        "english": "Protocol",
+        "chinese": "惯例"
+    },
+    {
+        "english": "Qualitative",
+        "chinese": "质的"
+    },
+    {
+        "english": "Refine",
+        "chinese": "提炼"
+    },
+    {
+        "english": "Relaxed",
+        "chinese": "放松的"
+    },
+    {
+        "english": "Restraints",
+        "chinese": "限制"
+    },
+    {
+        "english": "Revolution",
+        "chinese": "革命"
+    },
+    {
+        "english": "Rigid",
+        "chinese": "严格的"
+    },
+    {
+        "english": "Route",
+        "chinese": "线路"
+    },
+    {
+        "english": "Scenario",
+        "chinese": "梗概"
+    },
+    {
+        "english": "Sphere",
+        "chinese": "球面领域"
+    },
+    {
+        "english": "Subordinate",
+        "chinese": "下级的"
+    },
+    {
+        "english": "Supplementary",
+        "chinese": "补充的"
+    },
+    {
+        "english": "Suspended",
+        "chinese": "暂停"
+    },
+    {
+        "english": "Team",
+        "chinese": "团队"
+    },
+    {
+        "english": "Temporary",
+        "chinese": "暂时的"
+    },
+    {
+        "english": "Trigger",
+        "chinese": "引起"
+    },
+    {
+        "english": "Unified",
+        "chinese": "统一的"
+    },
+    {
+        "english": "Violation",
+        "chinese": "违背"
+    },
+    {
+        "english": "Vision",
+        "chinese": "视力"
+    },
+    {
+        "english": "Adjacent",
+        "chinese": "比邻的"
+    },
+    {
+        "english": "Albeit",
+        "chinese": "尽管"
+    },
+    {
+        "english": "Assembly",
+        "chinese": "聚集到一起的人"
+    },
+    {
+        "english": "Collapse",
+        "chinese": "倒塌"
+    },
+    {
+        "english": "Colleagues",
+        "chinese": "同事"
+    },
+    {
+        "english": "Complied",
+        "chinese": "汇编"
+    },
+    {
+        "english": "Conceived",
+        "chinese": "构思"
+    },
+    {
+        "english": "Convinced",
+        "chinese": "使信服"
+    },
+    {
+        "english": "Depression",
+        "chinese": "萧条降低"
+    },
+    {
+        "english": "Encountered",
+        "chinese": "面临"
+    },
+    {
+        "english": "Enormous",
+        "chinese": "巨大的"
+    },
+    {
+        "english": "Forthcoming",
+        "chinese": "即将到来的"
+    },
+    {
+        "english": "Inclination",
+        "chinese": "倾向"
+    },
+    {
+        "english": "Integrity",
+        "chinese": "完整，诚实"
+    },
+    {
+        "english": "Intrinsic",
+        "chinese": "内在的"
+    },
+    {
+        "english": "Invoked",
+        "chinese": "引起产生"
+    },
+    {
+        "english": "Levy",
+        "chinese": "征收"
+    },
+    {
+        "english": "Likewise",
+        "chinese": "同样"
+    },
+    {
+        "english": "Nonetheless",
+        "chinese": "尽管如此"
+    },
+    {
+        "english": "Notwithstanding",
+        "chinese": "尽管"
+    },
+    {
+        "english": "Odd",
+        "chinese": "古怪"
+    },
+    {
+        "english": "Ongoing",
+        "chinese": "持续的"
+    },
+    {
+        "english": "Panel",
+        "chinese": "委员会，小组"
+    },
+    {
+        "english": "Persistent",
+        "chinese": "坚持不懈的"
+    },
+    {
+        "english": "Posed",
+        "chinese": "形成构成"
+    },
+    {
+        "english": "Reluctant",
+        "chinese": "不情愿的"
+    },
+    {
+        "english": "So-called",
+        "chinese": "所谓的"
+    },
+    {
+        "english": "Straightforward",
+        "chinese": "易懂的"
+    },
+    {
+        "english": "Undergo",
+        "chinese": "经受"
+    },
+    {
+        "english": "Whereby",
+        "chinese": "借"
+    }
+]
