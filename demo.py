@@ -2,12 +2,13 @@ import gradio as gr
 import json
 import numpy as np
 import datetime
+import os
 
 def load_javascript():
     GradioTemplateResponseOriginal = gr.routes.templates.TemplateResponse
     print("loading javascript...")
     js = '''
-    <script src="file=custom.js"></script>
+    <script src="file=js/custom.js"></script>
     '''
 
     def template_response(*args, **kwargs):
@@ -18,12 +19,23 @@ def load_javascript():
 
     gr.routes.templates.TemplateResponse = template_response
 
+data_file = [file for file in os.listdir('data/') if file.endswith('.json')]
+
 class Englisg:
     def __init__(self) -> None:
-        self.data = json.load(open('data.json','r',encoding='utf8'))
         self.cur_index = -1
+        self.success = 0
+        self.remaining = 0
+        self.data_file = ""
+        self.data = []
+        self.index = []
+        self.show_english = []
+        self.error_index = []
 
-    def start(self):
+    def start(self,data_file):
+        self.data_file = data_file
+        self.data = json.load(open(f'data/{data_file}','r',encoding='utf8'))
+        self.error_index = []
         self.index = np.random.choice(list(range(0,len(self.data))),len(self.data),replace=False)
         self.cur_index = 0
         self.show_english = np.random.choice(list(range(0,len(self.data))),len(self.data)//2,replace=False)
@@ -36,18 +48,23 @@ class Englisg:
             return self.data[self.index[self.cur_index]]['chinese'],f"Success: {self.success}",f"Remaining: {self.remaining}",""
     
     def eval(self,answer):
+        if self.cur_index == -1:
+            return "","",f"Success: {self.success}",f"Remaining: {self.remaining}",f"Please start first!"
         if self.index[self.cur_index] in self.show_english:
             if answer == self.data[self.index[self.cur_index]]['chinese']:
                 self.success += 1
                 self.remaining -= 1
                 self.cur_index += 1
                 if self.success == len(self.data):
-                    return "Congratulations! You have finished all the questions!","",f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Correct\n"
+                    self.cur_index = -1
+                    return "","",f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Congratulations! You have finished all the questions!\n"
                 if self.index[self.cur_index] in self.show_english:
                     return self.data[self.index[self.cur_index]]['english'],"",f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Correct\n"
                 else:
                     return self.data[self.index[self.cur_index]]['chinese'],"",f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Correct\n"
             else:
+                if self.index[self.cur_index] not in self.error_index:
+                    self.error_index.append(self.index[self.cur_index])
                 if self.index[self.cur_index] in self.show_english:
                     return self.data[self.index[self.cur_index]]['english'],answer,f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Wrong\n"
                 else:
@@ -58,18 +75,25 @@ class Englisg:
                 self.remaining -= 1
                 self.cur_index += 1
                 if self.success == len(self.data):
-                    return "Congratulations! You have finished all the questions!","",f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Correct\n"
+                    self.cur_index = -1
+                    return "","",f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Congratulations! You have finished all the questions!\n"
                 if self.index[self.cur_index] in self.show_english:
                     return self.data[self.index[self.cur_index]]['english'],"",f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Correct\n"
                 else:
                     return self.data[self.index[self.cur_index]]['chinese'],"",f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Correct\n"
             else:
+                if self.index[self.cur_index] not in self.error_index:
+                    self.error_index.append(self.index[self.cur_index])
                 if self.index[self.cur_index] in self.show_english:
                     return self.data[self.index[self.cur_index]]['english'],answer,f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Wrong\n"
                 else:
                     return self.data[self.index[self.cur_index]]['chinese'],answer,f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Wrong\n"
 
     def show(self):
+        if self.cur_index == -1:
+            return "Please start first!"
+        if self.index[self.cur_index] not in self.error_index:
+            self.error_index.append(self.index[self.cur_index])
         if self.index[self.cur_index] in self.show_english:
             return self.data[self.index[self.cur_index]]['chinese']
         else:
@@ -77,20 +101,31 @@ class Englisg:
         
     def save(self):
         if self.cur_index == -1:
-            return
+            return "Please start first!"
         res = {}
+        res['data_file'] = self.data_file
         res['success'] = self.success
         res['remaining'] = self.remaining
         res['cur_index'] = self.cur_index
         res['index'] = self.index.tolist()
         res['show_english'] = self.show_english.tolist()
-        config_filename = f"config_{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}.json"
-        with open(config_filename,'w',encoding='utf8') as f:
+        suffix = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
+        config_filename = f"config_{suffix}.json"
+        with open(f'config/{config_filename}','w',encoding='utf8') as f:
             json.dump(res,f,ensure_ascii=False,indent=4)
-        return f"Info: Saved to {config_filename}\n"
+        if len(self.error_index) == 0:
+            return f"Info: Save as config_{suffix}.json\n"
+        error_data = np.array(self.data)[self.error_index].tolist()
+        error_filename = f"error_{len(error_data)}_{suffix}.json"
+        with open(f'data/{error_filename}','w',encoding='utf8') as f:
+            json.dump(error_data,f,ensure_ascii=False,indent=4)
+        return f"Info: Save as config_{suffix}.json and error_{suffix}.json\n"
     
     def load_config(self,config):
         config = json.load(open(config.name,'r',encoding='utf8'))
+        self.data_file = config['data_file']
+        self.data = json.load(open(f'data/{self.data_file}','r',encoding='utf8'))
+        self.error_index = []
         self.cur_index = config['cur_index']
         self.success = config['success']
         self.remaining = config['remaining']
@@ -100,7 +135,11 @@ class Englisg:
             return self.data[self.index[self.cur_index]]['english'],f"Success: {self.success}",f"Remaining: {self.remaining}",""
         else:
             return self.data[self.index[self.cur_index]]['chinese'],f"Success: {self.success}",f"Remaining: {self.remaining}",""
-        
+    
+    def refresh(self):
+        data_file = [file for file in os.listdir('data/') if file.endswith('.json')]
+        return gr.update(choices=data_file,value=data_file[0])
+
 english = Englisg()
 
 with gr.Blocks() as demo:
@@ -116,12 +155,15 @@ with gr.Blocks() as demo:
         with gr.Column(scale=1):
             success = gr.Label(value="Success: 0",show_label=False)
             remaining = gr.Label(value="Remaining: 0",show_label=False)
+            data_file_dropdown = gr.Radio(label="Data File",choices=data_file,value=data_file[0])
+            refresh_btn = gr.Button(value="Refresh")
             load_config = gr.File(label="Load Config",type="file",file_count='single')
     
-    start_btn.click(english.start,outputs=[question,success,remaining,info])
+    start_btn.click(english.start,inputs=[data_file_dropdown],outputs=[question,success,remaining,info])
     show_answer_btn.click(english.show,outputs=[info])
     submit_btn.click(english.eval,inputs=[answer],outputs=[question,answer,success,remaining,info])
     save_btn.click(english.save,outputs=[info])
+    refresh_btn.click(english.refresh,outputs=[data_file_dropdown])
     load_config.upload(english.load_config,inputs=[load_config],outputs=[question,success,remaining])
 
 load_javascript()
