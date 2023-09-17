@@ -63,8 +63,6 @@ class Englisg:
                 else:
                     return self.data[self.index[self.cur_index]]['chinese'],"",f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Correct\n"
             else:
-                if self.index[self.cur_index] not in self.error_index:
-                    self.error_index.append(self.index[self.cur_index])
                 if self.index[self.cur_index] in self.show_english:
                     return self.data[self.index[self.cur_index]]['english'],answer,f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Wrong\n"
                 else:
@@ -82,8 +80,6 @@ class Englisg:
                 else:
                     return self.data[self.index[self.cur_index]]['chinese'],"",f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Correct\n"
             else:
-                if self.index[self.cur_index] not in self.error_index:
-                    self.error_index.append(self.index[self.cur_index])
                 if self.index[self.cur_index] in self.show_english:
                     return self.data[self.index[self.cur_index]]['english'],answer,f"Success: {self.success}",f"Remaining: {self.remaining}",f"Info: Wrong\n"
                 else:
@@ -100,26 +96,31 @@ class Englisg:
             return self.data[self.index[self.cur_index]]['english']
         
     def save(self):
-        if self.cur_index == -1:
+        if self.cur_index == -1 and len(self.error_index) == 0:
             return "Please start first!"
-        res = {}
-        res['data_file'] = self.data_file
-        res['success'] = self.success
-        res['remaining'] = self.remaining
-        res['cur_index'] = self.cur_index
-        res['index'] = self.index.tolist()
-        res['show_english'] = self.show_english.tolist()
+        files = []
         suffix = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
-        config_filename = f"config_{suffix}.json"
-        with open(f'config/{config_filename}','w',encoding='utf8') as f:
-            json.dump(res,f,ensure_ascii=False,indent=4)
-        if len(self.error_index) == 0:
-            return f"Info: Save as config_{suffix}.json\n"
-        error_data = np.array(self.data)[self.error_index].tolist()
-        error_filename = f"error_{len(error_data)}_{suffix}.json"
-        with open(f'data/{error_filename}','w',encoding='utf8') as f:
-            json.dump(error_data,f,ensure_ascii=False,indent=4)
-        return f"Info: Save as config_{suffix}.json and error_{suffix}.json\n"
+        if self.cur_index != -1:
+            res = {}
+            res['data_file'] = self.data_file
+            res['success'] = self.success
+            res['remaining'] = self.remaining
+            res['cur_index'] = self.cur_index
+            res['index'] = self.index.tolist()
+            res['show_english'] = self.show_english.tolist()
+            config_filename = f"config_{suffix}.json"
+            with open(f'config/{config_filename}','w',encoding='utf8') as f:
+                json.dump(res,f,ensure_ascii=False,indent=4)
+            files.append(f"config_{suffix}.json")
+        if len(self.error_index) != 0:
+            error_data = np.array(self.data)[self.error_index].tolist()
+            error_filename = f"error_{len(error_data)}_{suffix}.json"
+            with open(f'data/{error_filename}','w',encoding='utf8') as f:
+                json.dump(error_data,f,ensure_ascii=False,indent=4)
+            files.append(f"error_{len(error_data)}_{suffix}.json\n")
+        if len(files) == 0:
+            return "Info: Nothing to save!"
+        return "Info: Save as " + " and ".join(files) + "\n"
     
     def load_config(self,config):
         config = json.load(open(config.name,'r',encoding='utf8'))
@@ -132,9 +133,9 @@ class Englisg:
         self.index = np.array(config['index'])
         self.show_english = np.array(config['show_english'])
         if self.index[self.cur_index] in self.show_english:
-            return self.data[self.index[self.cur_index]]['english'],f"Success: {self.success}",f"Remaining: {self.remaining}",""
+            return self.data[self.index[self.cur_index]]['english'],f"Success: {self.success}",f"Remaining: {self.remaining}",self.data_file
         else:
-            return self.data[self.index[self.cur_index]]['chinese'],f"Success: {self.success}",f"Remaining: {self.remaining}",""
+            return self.data[self.index[self.cur_index]]['chinese'],f"Success: {self.success}",f"Remaining: {self.remaining}",self.data_file
     
     def refresh(self):
         data_file = [file for file in os.listdir('data/') if file.endswith('.json')]
@@ -164,7 +165,7 @@ with gr.Blocks() as demo:
     submit_btn.click(english.eval,inputs=[answer],outputs=[question,answer,success,remaining,info])
     save_btn.click(english.save,outputs=[info])
     refresh_btn.click(english.refresh,outputs=[data_file_dropdown])
-    load_config.upload(english.load_config,inputs=[load_config],outputs=[question,success,remaining])
+    load_config.upload(english.load_config,inputs=[load_config],outputs=[question,success,remaining,data_file_dropdown])
 
 load_javascript()
 demo.queue(concurrency_count=4).launch(inbrowser=True)
